@@ -1,0 +1,67 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.3.10",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "antd": "^4.10.2",
+    "axios": "^0.21.1",
+    "date-fns": "^2.8.1",
+    "jquery": "^3.5.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-bottom-drawer": "^0.1.0",
+    "react-date-picker": "^8.1.0",
+    "react-dom": "^17.0.1",
+    "react-elastic-carousel": "^0.11.0",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
+    "react-innertext": "^1.1.5",
+    "react-loader-spinner": "^4.0.0",
+    "react-multi-carousel": "^2.6.1",
+    "react-notifications": "^1.7.2",
+    "react-quill": "^1.3.5",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-star-ratings": "^2.3.0",
+    "react-thunk": "^1.0.0",
+    "react-zoom-slider": "^0.1.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.1",
+    "validator": "^13.5.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+#standard-required{
+    min-width:100% !important;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#auth_box{
+    padding-left:30px;
+     padding-right:30px;
+}
+
+#login_btn{
+    border-radius:30px;
+    width:80%;
+    background:#093363;
+    color:white;
+    text-align:center;
+    border:none;
+    height:40px;
+    margin:auto;
+}
+
+#without_footer #Footer{
+    display:none
+}
+
+
+#google_btn{
+    border:1px solid #E47162;
+    border-radius:30px;
+    height:40px;
+    color:#E47162;
+    text-align:center;
+    background:none;
+    padding-top:10px;
+    padding-bottom:12px;
+    padding-left:25px;
+    padding-right:25px;
+    font-size:12px;
+    float:right;
+}
+
+#facebook_btn{
+    border:1px solid #3A5794 !important;
+    border-radius:30px;
+    height:40px;
+    color:#3A5794;
+    float:left;
+    text-align:center;
+    background:none !important;
+    padding-top:10px;
+    padding-bottom:12px;
+    padding-left:25px;
+    padding-right:25px;
+    font-size:12px;
+}
+
+@media(max-width:768px){
+    #facebook_btn{
+        float:none;
+        margin-top:-15px;
+        width:240px !important;
+        
+    }
+
+    #f{
+        padding:0px;
+    }
+
+    #f p{
+        font-size:13px
+    }
+
+    #google_btn{
+        float:none;
+        width:240px !important;
+        margin-top:-20px
+    }
+}
+
+@media(max-width:574px){
+     #facebook_btn{
+        float:none;
+        margin-top:15px;
+        width:240px !important;
+        
+    }
+}
